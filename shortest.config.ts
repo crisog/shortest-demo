@@ -3,8 +3,8 @@ import type { ShortestConfig } from "@antiwork/shortest";
 export default {
   headless: false,
   baseUrl: "http://localhost:3000",
-  testFolder: 's',
-  testPattern: 's',
+  testFolder: '__tests__',
+  testPattern: '*.test.ts',
   ai: {
     provider: "anthropic",
   }
